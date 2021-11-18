@@ -38,7 +38,7 @@ function createNewArray(noOfBars = 60){
     array = [];
 
     for(let i = 0; i < noOfBars; i++){
-        array[i] = Math.floor(Math.random()*(500-20)+20);
+        array[i] = Math.floor(Math.random()*(450-20)+20);
         //console.log(array[i]);
     }
     //console.log("size " , noOfBars);
